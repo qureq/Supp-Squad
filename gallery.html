@@ -11,6 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
+.card-desc {
+    /* Твои старые стили (шрифт, цвет и т.д.) остаются тут */
+    white-space: pre-line; /* ЭТО ПРИНУДИТЕЛЬНО ВКЛЮЧАЕТ ПЕРЕНОС СТРОК */
+}
 *{
 margin:0;
 padding:0;
@@ -399,7 +403,7 @@ transition: background 0.2s;
 const galleryData = [
     { type: 'video', src: 'https://www.youtube.com/embed/DXBssN7tOs4', desc: 'Переговоры'},
     { type: 'video', src: 'https://www.youtube.com/embed/w8C4e209SfA', desc: 'Собаки ворвались в дом и эээ...' },
-    { type: 'video', src: 'https://www.youtube.com/embed/eZ_mUJ0YwVE', desc: 'Шансон помогает' },
+    { type: 'video', src: 'https://www.youtube.com/embed/eZ_mUJ0YwVE', desc: 'Шансон помогает\n(смотрите на ютубе)' },
     { type: 'video', src: 'https://www.youtube.com/embed/nQjc01rK0xM', desc: 'Здравствуйте' },
     
     { type: 'image', src: '1.png', desc: '👏🏻👏🏻👏🏻👏🏻'},
